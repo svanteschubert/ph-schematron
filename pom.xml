@@ -25,7 +25,7 @@
     <version>1.11.2</version>
   </parent>
   <artifactId>ph-schematron-parent-pom</artifactId>
-  <version>5.6.4</version>
+  <version>5.6.4-decimal</version>
   <packaging>pom</packaging>
   <name>ph-schematron-parent-pom</name>
   <description>Base POM to build the ph-schematron projects</description>
@@ -83,8 +83,8 @@
       </dependency>
       <dependency>
         <groupId>net.sf.saxon</groupId>
-        <artifactId>Saxon-HE</artifactId>
-        <version>10.2</version>
+        <artifactId>Saxon-HE-decimal-based</artifactId>
+        <version>10.3-beta3-SNAPSHOT</version>
       </dependency>
       
       <!-- RelaxNG -->
@@ -104,7 +104,7 @@
           </exclusion>
           <exclusion>
             <groupId>net.sf.saxon</groupId>
-            <artifactId>saxon</artifactId>
+            <artifactId>Saxon-HE-decimal-based</artifactId>
           </exclusion>
           <exclusion>
             <groupId>xerces</groupId>
@@ -129,7 +129,7 @@
           </exclusion>
           <exclusion>
             <groupId>net.sf.saxon</groupId>
-            <artifactId>saxon</artifactId>
+            <artifactId>Saxon-HE-decimal-based</artifactId>
           </exclusion>
           <exclusion>
             <groupId>xerces</groupId>
